@@ -6,6 +6,7 @@ from bunch import Bunch
 import argparse
 import json
 
+
 class Bunch(object):
     def __init__(self, adict):
         self.__dict__.update(adict)
